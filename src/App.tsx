@@ -1,6 +1,6 @@
 import { lazy, Suspense, useEffect } from 'react'
 import { BrowserRouter, Routes, Route, Navigate, useLocation } from 'react-router-dom'
-import { HelmetProvider } from 'react-helmet-async'
+import { HelmetProvider } from '@dr.pogodin/react-helmet'
 import { LanguageProvider } from '@/i18n/LanguageContext'
 import { Layout } from '@/components/layout/Layout'
 

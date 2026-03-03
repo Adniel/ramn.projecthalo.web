@@ -1,4 +1,4 @@
-import { Helmet } from 'react-helmet-async'
+import { Helmet } from '@dr.pogodin/react-helmet'
 import { getIcon } from '@/lib/icons'
 import { motion } from 'framer-motion'
 import { useLanguage } from '@/i18n/LanguageContext'

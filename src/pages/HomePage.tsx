@@ -1,4 +1,4 @@
-import { Helmet } from 'react-helmet-async'
+import { Helmet } from '@dr.pogodin/react-helmet'
 import { useLanguage } from '@/i18n/LanguageContext'
 import { getContent } from '@/content'
 import { Hero } from '@/components/sections/Hero'

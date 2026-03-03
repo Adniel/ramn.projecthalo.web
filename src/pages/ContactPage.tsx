@@ -1,4 +1,4 @@
-import { Helmet } from 'react-helmet-async'
+import { Helmet } from '@dr.pogodin/react-helmet'
 import { motion } from 'framer-motion'
 import { Mail, ExternalLink } from 'lucide-react'
 import { useLanguage } from '@/i18n/LanguageContext'
