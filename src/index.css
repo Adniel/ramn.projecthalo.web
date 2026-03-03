@@ -1,0 +1,49 @@
+@import "tailwindcss";
+@import "@fontsource-variable/inter";
+
+@theme {
+  --color-navy-50: #e6edf5;
+  --color-navy-100: #ccdaeb;
+  --color-navy-200: #99b5d7;
+  --color-navy-300: #6690c3;
+  --color-navy-400: #336baf;
+  --color-navy-500: #1a4a7a;
+  --color-navy-600: #163d66;
+  --color-navy-700: #133152;
+  --color-navy-800: #102a43;
+  --color-navy-900: #0c1f33;
+  --color-navy-950: #081624;
+
+  --color-slate-50: #f8fafc;
+  --color-slate-100: #f1f5f9;
+  --color-slate-200: #e2e8f0;
+  --color-slate-300: #cbd5e1;
+  --color-slate-400: #94a3b8;
+  --color-slate-500: #64748b;
+  --color-slate-600: #475569;
+  --color-slate-700: #334e68;
+  --color-slate-800: #1e293b;
+  --color-slate-900: #0f172a;
+
+  --color-teal-50: #f0fdfa;
+  --color-teal-100: #ccfbf1;
+  --color-teal-200: #99f6e4;
+  --color-teal-300: #5eead4;
+  --color-teal-400: #2dd4bf;
+  --color-teal-500: #14b8a6;
+  --color-teal-600: #0d9488;
+  --color-teal-700: #0f766e;
+  --color-teal-800: #115e59;
+  --color-teal-900: #134e4a;
+
+  --font-sans: "Inter Variable", ui-sans-serif, system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background-color: var(--color-navy-800);
+  color: white;
+}
